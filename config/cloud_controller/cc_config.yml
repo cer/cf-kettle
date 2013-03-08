@@ -55,7 +55,7 @@ redis:
 directories:
   droplets: /var/tmp/vcap/shared/droplets
   resources: /var/tmp/vcap/shared/resources
-  staging_manifests: /var/tmp/vcap/jobs/cloud_controller/config/staging
+  staging_manifests: ../../config/cloud_controller/staging
   # set to true to prevent filesystem resource leaks
   # nukes tmpdir on startup -- be careful!
   nuke_tmp_on_startup: false
@@ -177,4 +177,4 @@ cc_partition: default
 #  user: thin
 #  password: thin
 
-runtimes_file: /var/tmp/vcap/jobs/cloud_controller/config/runtimes.yml
+runtimes_file: ../../config/cloud_controller/runtimes.yml
