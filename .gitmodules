@@ -1,0 +1,18 @@
+[submodule "cloud_controller"]
+	path = cloud_controller
+	url = git@github.com:cloudfoundry/cloud_controller.git
+[submodule "dea"]
+	path = dea
+	url = git://github.com/cloudfoundry/dea.git
+[submodule "nats"]
+	path = nats
+	url = git://github.com/derekcollison/nats.git
+[submodule "vcap-staging"]
+	path = vcap-staging
+	url = git://github.com/cloudfoundry/vcap-staging.git
+[submodule "stager"]
+	path = stager
+	url = git://github.com/cloudfoundry/stager.git
+[submodule "vcap-common"]
+	path = vcap-common
+	url = git://github.com/cloudfoundry/vcap-common.git

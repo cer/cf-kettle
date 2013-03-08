@@ -1,0 +1,18 @@
+---
+# Base directory where all applications are staged and hosted
+base_dir: /tmp/deploying-to-a-cloudfoundry-dea/var/dea
+pid: /tmp/deploying-to-a-cloudfoundry-dea/var/run/dea.pid
+
+runtimes:
+  - ruby19
+  - node08
+
+multi_tenant: true
+
+max_memory: 1024
+
+# Optional as of http://reviews.cloudfoundry.org/11316
+logging:
+  level: debug
+
+
