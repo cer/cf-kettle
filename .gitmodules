@@ -13,3 +13,6 @@
 [submodule "vcap-common"]
 	path = vcap-common
 	url = git://github.com/cloudfoundry/vcap-common.git
+[submodule "cloud_controller"]
+	path = cloud_controller
+	url = git://github.com/cloudfoundry/cloud_controller.git
